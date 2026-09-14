@@ -1,12 +1,12 @@
 import pandas as pd
 
-from numeric import Numeric
-from text import Text
-from category import Category
-from date import Date
-from boolean import Boolean
+from .numeric import Numeric
+from .text import Text
+from .category import Category
+from .date import Date
+from .boolean import Boolean
 
-class Explore:
+class DataExploration:
     """
     A class to explore and analyze a pandas DataFrame.
     """
