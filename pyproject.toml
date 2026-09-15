@@ -1,6 +1,6 @@
 [project]
 name = "dataexp"
-version = "0.1.0"
+version = "0.1.0-alpha.1"
 description = "Lightweight Python library for quickly exploring a pandas DataFrame"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -17,3 +17,12 @@ dev = [
 [build-system]
 requires = ["uv_build>=0.12.9,<0.13.0"]
 build-backend = "uv_build"
+
+[project.urls]
+repository = "https://github.com/XcelCh/dataexp"
+
+[[tool.uv.index]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+publish-url = "https://test.pypi.org/legacy/"
+explicit = true
