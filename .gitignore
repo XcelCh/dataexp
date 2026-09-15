@@ -1,5 +1,3 @@
 __pycache__/
 .venv/
-structure.txt
-sample.csv
-test.py
+dist

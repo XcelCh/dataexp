@@ -100,7 +100,7 @@ wheels = [
 ]
 
 [[package]]
-name = "data-exploration"
+name = "dataexp"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

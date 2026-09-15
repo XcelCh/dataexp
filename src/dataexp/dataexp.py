@@ -6,7 +6,7 @@ from .category import Category
 from .date import Date
 from .boolean import Boolean
 
-class DataExploration:
+class Dataexp:
     """
     A class to explore and analyze a pandas DataFrame.
     """
