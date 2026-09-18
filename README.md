@@ -16,14 +16,14 @@
 
 ## Installation
 
-`dataexp` isn't published to PyPI yet. Install it directly from source using [uv](https://docs.astral.sh/uv/) or pip:
+`dataexp` is available on [PyPI](https://pypi.org/project/dataexp/). Install it with [uv](https://docs.astral.sh/uv/) (recommended) or pip:
 
 ```bash
 # with uv
-uv add git+https://github.com/<your-username>/dataexp.git
+uv add dataexp
 
 # with pip
-pip install git+https://github.com/<your-username>/dataexp.git
+pip install dataexp
 ```
 
 Or clone the repo and install it in editable mode for local development:
