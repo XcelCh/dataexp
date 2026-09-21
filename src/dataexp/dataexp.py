@@ -11,15 +11,16 @@ class Dataexp:
     A class to explore and analyze a pandas DataFrame.
     """
     
-    def __init__(self, data):
+    def __init__(self, data, exclude=None):
         """
         Initialize explore with data to be analyzed.
 
         Args:
             data: pandas DataFrame to be analyzed.
+            exclude: column name to be excluded for analysis.
         """
         
-        self.data = data
+        self.data = data.loc[:, [col for col in data.columns if exclude is None or col not in exclude]]
         self.dtypes = self._pdtypes()
         
         self.null = data.isnull().sum()
